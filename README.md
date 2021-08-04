@@ -60,7 +60,7 @@ $student = array(
 );
 ```
 
-- In case the sort by 'age'.
+- In case of sort by 'age'
 
 ```php
 use TheOpenEyes\SortAssociativeArray\SortAssociativeArray;
@@ -74,7 +74,7 @@ SortAssociativeArray::column($student, 'age', SORT_DESC);
 */
 ```
 
-- In case the sort by 'first_name'.
+- In case of sort by 'first_name'
 
 ```php
 use TheOpenEyes\SortAssociativeArray\SortAssociativeArray;
