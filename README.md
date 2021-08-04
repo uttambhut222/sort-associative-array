@@ -34,11 +34,11 @@ $student = array(
 		'name' => array(
 			'first_name' => 'Joann',
 			'last_name' => 'Daly'
-        ),
+        	),
 		'age' => 18, 
 		'grade' => 12, 
 		'birth_month' => 5
-    ),
+    	),
 	array(
 		'name' => array(
 			'first_name' => 'Jaiden',
