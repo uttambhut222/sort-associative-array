@@ -67,10 +67,11 @@ use TheOpenEyes\SortAssociativeArray\SortAssociativeArray;
 
 SortAssociativeArray::column($student, 'age', SORT_DESC);
 
-// 3 Parameters of 'column' method
-// 1. Array
-// 2. Column name
-// 3. Sort Direction - Should be either SORT_ASC or SORT_DESC (Optional, Default is SORT_ASC)
+/* Parameters of 'column' method
+    1. Array
+    2. Column name
+    3. Sort Direction - Should be either SORT_ASC or SORT_DESC (Optional, Default is SORT_ASC)
+*/
 ```
 
 - In case the sort by 'first_name'.
@@ -80,9 +81,10 @@ use TheOpenEyes\SortAssociativeArray\SortAssociativeArray;
 
 SortAssociativeArray::columnWithChild($student, 'name', 'first_name', SORT_DESC);
 
-// 4 Parameters of 'columnWithChild' method
-// 1. Array
-// 2. Parent column name
-// 3. Child column name
-// 4. Sort Direction - Should be either SORT_ASC or SORT_DESC (Optional, Default is SORT_ASC)
+/* Parameters of 'columnWithChild' method
+    1. Array
+    2. Parent column name
+    3. Child column name
+    4. Sort Direction - Should be either SORT_ASC or SORT_DESC (Optional, Default is SORT_ASC)
+*/
 ```
