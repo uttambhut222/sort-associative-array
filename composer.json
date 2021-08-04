@@ -1,0 +1,33 @@
+{
+    "name": "theopeneyes/sort-associative-array",
+    "description": "A Laravel package to sort associative array",
+    "keywords": [
+        "laravel",
+        "api",
+        "sort array",
+        "sort associative array",
+		"associative array"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "TheOpenEyes",
+            "homepage": "https://theopeneyes.com/"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "TheOpenEyes\\SortAssociativeArray\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "TheOpenEyes\\SortAssociativeArray\\SortAssociativeArrayServiceProvider"
+            ]
+        }
+    }
+}
