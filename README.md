@@ -3,7 +3,7 @@
  
 ## Installation
 
-To get started, require this package
+To get started, install `require` in your project.
 
 - Via Composer
 
@@ -13,12 +13,12 @@ To get started, require this package
 
 - Via composer.json file
 
-Add the following to the `require` section of your projects `composer.json` file.
+Enter the following in the `require` section of your project `composer.json` file.
 ``` php
 "theopeneyes/sort-associative-array": "dev-main",
 ```
 
-Run composer update to download the package
+Run the `composer update` to download the package.
 
 ``` bash
  composer update
@@ -60,7 +60,7 @@ $student = array(
 );
 ```
 
-- In case of sort by 'age'
+- In case it's sort by 'age'
 
 ```php
 use TheOpenEyes\SortAssociativeArray\SortAssociativeArray;
@@ -68,13 +68,13 @@ use TheOpenEyes\SortAssociativeArray\SortAssociativeArray;
 SortAssociativeArray::column($student, 'age', SORT_DESC);
 
 /* Parameters of 'column' method
-    1. Array
+    1. Array - The array you would like to sort by.
     2. Column name
     3. Sort Direction - Should be either SORT_ASC or SORT_DESC (Optional, Default is SORT_ASC)
 */
 ```
 
-- In case of sort by 'first_name'
+- In case it's sort by 'first_name'
 
 ```php
 use TheOpenEyes\SortAssociativeArray\SortAssociativeArray;
@@ -82,7 +82,7 @@ use TheOpenEyes\SortAssociativeArray\SortAssociativeArray;
 SortAssociativeArray::columnWithChild($student, 'name', 'first_name', SORT_DESC);
 
 /* Parameters of 'columnWithChild' method
-    1. Array
+    1. Array - The array you would like to sort by.
     2. Parent column name
     3. Child column name
     4. Sort Direction - Should be either SORT_ASC or SORT_DESC (Optional, Default is SORT_ASC)
